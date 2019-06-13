@@ -1,9 +1,9 @@
 function Iceball() {
     this.y = height/2
     this.x = 64
-    this.gravity = 0.6
+    this.gravity = 0.7
     this.velocity = 0
-    this.lift = -15
+    this.lift = -12
     this.bouyancy = 0.8
 
     this.show = function() {
@@ -13,7 +13,7 @@ function Iceball() {
 
     this.up = function() {
         this.velocity += this.lift
-        this.velocity *= this.bouyancy
+        //this.velocity *= this.bouyancy
     }
 
     this.update = function() {

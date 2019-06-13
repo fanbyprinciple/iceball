@@ -48,6 +48,5 @@ function windowResized() {
 function keyPressed() {
     if (key == ' ') {
         Iceball.up()
-        console.log('SPACE')
     }
 }
