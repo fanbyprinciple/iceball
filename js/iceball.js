@@ -1,6 +1,6 @@
 function Iceball() {
     this.y = height/2
-    this.x = 64
+    this.x = 86
     this.gravity = 0.7
     this.velocity = 0
     this.lift = -12

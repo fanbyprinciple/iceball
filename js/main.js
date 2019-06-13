@@ -1,10 +1,10 @@
-var Iceball
+var iceball
 var pipes = []
 
 function setup() {
     //createCanvas(windowWidth, windowHeight);
     createCanvas(400, 600);
-    Iceball = new Iceball()
+    iceball = new Iceball()
     pipes.push(new Pipe())
 
     
@@ -29,8 +29,8 @@ function draw() {
     }
 
     //text("put your p5.js code here",10, frameCount % height);
-    Iceball.update()
-    Iceball.show()
+    iceball.update()
+    iceball.show()
 
     if (frameCount % 100 == 0){
         pipes.push(new Pipe())
@@ -47,6 +47,6 @@ function windowResized() {
 
 function keyPressed() {
     if (key == ' ') {
-        Iceball.up()
+        iceball.up()
     }
 }
