@@ -1,12 +1,9 @@
-# p5js-boilerplate
-Write Processing just like you would in the native Processing IDE, except it works in your browser and you can put your sketch in the web. The only difference is that you write code in Javascript instead of Java.
+# Iceball
+Experimenting with a glob of ice disguised as a flappy bird clone. Let's see how far the bird flies.
 
-## What it is
-This repository serves as a template for writing responsive [Processing](https://processing.org/) code for web browsers. It is based on the [p5js](http://p5js.org/) framework for Javascript. The template is ready to go, so you can instantly start writing code for your project and don't have to worry about the environment. You only have to work on one file and still have a working environment. By default, the HTML canvas displaying the code gets scaled full page and resizes with the browser window. Debugging works just as fine as in the native Processing environment when you use your browser console.
+[Demo](http://htmlpreview.github.io/?https://github.com/fanbyprinciple/iceball/blob/master/index.html)
 
-As this boilerplate code is meant to serve for experiments, none of the code is minified.
-
-## How to
+## How to start with p5js boilerplate
 1. [Download](https://github.com/bsplt/p5js-boilerplate/archive/master.zip) or clone the git.
 2. Write your Processing code into `/js/main.js`. You can follow the p5js [workflow](http://p5js.org/get-started/) or write Javascript your style.
 3. Change `index.html` to your requirements (or do nothing to it). You can write HTML as you like and still have the Processing sketch in the background.
