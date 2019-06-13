@@ -1,9 +1,10 @@
-function Bird() {
+function Iceball() {
     this.y = height/2
     this.x = 64
-    this.gravity = 0.5
+    this.gravity = 0.6
     this.velocity = 0
-    this.lift = -10
+    this.lift = -15
+    this.bouyancy = 0.8
 
     this.show = function() {
         fill(255)
@@ -12,6 +13,7 @@ function Bird() {
 
     this.up = function() {
         this.velocity += this.lift
+        this.velocity *= this.bouyancy
     }
 
     this.update = function() {
